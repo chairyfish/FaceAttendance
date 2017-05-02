@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_each_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorLightGray"
+    tools:context="chairyfish.test.Activity.EachDetailActivity">
+
+    <include
+        android:id="@+id/layout_topbar_back"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        layout="@layout/layout_topbar_back"/>
+
+    <!--&5;&#45;&#45;&#445;&#45;&#45;&#&#45;&#45;-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="应签次数"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/should_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="实签次数"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/actual_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="145dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

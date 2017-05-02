@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="课程名称"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/finish_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="课程名称"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="教师姓名"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:id="@+id/finish_course_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="教 师"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="开始时间"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/finish_course_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="开始时间"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="145dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="145dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="结束时间"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="145dp">
+
+        <TextView
+            android:id="@+id/finish_course_end"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="结束时间"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorWhite"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="190dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="是否签到"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorDarkGray"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:id="@+id/finish_course_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="是否签到"
+            android:textSize="16dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/colorGray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="145dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="190dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="235dp"
+        android:background="@color/colorGray">
+    </RelativeLayout>
+
+</RelativeLayout>

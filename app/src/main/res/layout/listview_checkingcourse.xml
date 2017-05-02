@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rect_whitecard">
+        <TextView
+            android:id="@+id/checking_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程名称"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreen"/>
+        <TextView
+            android:id="@+id/checking_course_teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="教师"
+            android:textSize="16dp"
+            android:textColor="@color/colorGray"/>
+<Button
+    android:id="@+id/checking_enter"
+    android:layout_width="80dp"
+    android:layout_height="30dp"
+    android:text="点击签到"
+    android:textColor="@color/colorWhite"
+    android:background="@drawable/rect_button_regist"
+    android:layout_alignParentEnd="true"/>
+
+
+            <TextView
+                android:id="@+id/checking_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="签到时间"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
